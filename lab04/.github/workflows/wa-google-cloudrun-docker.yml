@@ -1,6 +1,6 @@
 name: GCP Deploy
 on:
-  push
+  push:
 jobs:
   lint:
     runs-on: ubuntu-latest
