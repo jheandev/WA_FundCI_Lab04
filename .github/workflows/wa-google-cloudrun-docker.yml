@@ -45,9 +45,9 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v2
         with:
-          context: ./lab04
+          context: ./
           push: true
-          dockerfile: ./lab04/Dockerfile   # caminho correto
+          dockerfile: ./Dockerfile   
           tags: moisesgc/webacademy:latest
 
   deploy:
