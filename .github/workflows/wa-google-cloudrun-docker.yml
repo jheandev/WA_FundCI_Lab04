@@ -48,7 +48,7 @@ jobs:
           context: ./lab04
           push: true
           dockerfile: ./lab04/Dockerfile   
-          tags: moisesgc/webacademy:latest
+          tags: jheanrabelo/webacademy:latest
 
   deploy:
     needs: lint
